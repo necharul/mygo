@@ -1,0 +1,479 @@
+
+*{margin: 0;padding: 0;}
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* ==========================================
+                1. nav part start
+============================================= */
+
+.navbar {
+    background: #F4F5FA !important;
+    padding-top: 48px;
+}
+
+
+.navbar .navbar-nav .nav-item .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #626262;
+    transition: .4s;
+}
+
+.navbar .navbar-nav .nav-item {
+    overflow: hidden;
+}
+
+.navbar .navbar-nav .nav-item:hover {
+    box-sizing: border-box;
+}
+
+.navbar .navbar-nav .nav-item:hover .nav-link {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #243F93;
+    box-sizing: border-box;
+    padding: 0 0;
+}
+/* 
+.navbar .navbar-nav .nav-item .active {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #243F93;
+
+} */
+
+.navbar form button {
+    padding: 14px 16px;
+}
+
+.navbar .button {
+    margin-left: 24px;
+}
+
+.navbar .button a{
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    background: #243F93;
+    padding: 15px 24px;
+    display: inline-block;
+    color: #FFF;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    transition: .4s;
+}
+
+.navbar .button a:hover{
+    background: transparent;
+    color: #243F93;
+    border: 1px solid #243F93;
+}
+
+/* ==========================================
+                1. nav part end
+============================================= */
+
+/* ==========================================
+                2. banner part start
+============================================= */
+
+.banner-part {
+    background: #F4F5FA;
+    padding-top: 130px;
+    padding-bottom: 150px;
+}
+
+.banner-part h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: #131313;
+    margin-bottom: 9px;
+}
+
+.banner-part h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #243F93;
+    width: 481px;
+}
+
+.banner-part span {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 40px;
+    color: #131313;
+}
+
+.banner-part p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #717171;
+    margin-bottom: 30px;
+    margin-top: 16px;
+    width: 442px;
+}
+
+.banner-part .man-info img {
+    width: 100%;
+}
+
+.banner-part .man-info p {
+    font-family: 'Inter', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #717171;
+    width: 309px;
+}
+
+.banner-part .man-info p span {
+    font-family: 'Inter', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 30px;
+    color: #131313;
+}
+
+.banner-part .banner-img img {
+    width: 100%;
+}
+
+/* ==========================================
+                2. banner part end
+============================================= */
+
+
+
+
+
+/* ==========================================
+                3. activites part start
+============================================= */
+
+.activites-part {
+    padding: 120px 0;
+    background: #eff0f4;
+
+}
+
+.activites-part .activites-title {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.activites-part .activites-title h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #243F93;
+    margin-bottom: 20px;
+}
+
+.activites-part .activites-title p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #626262;
+    margin-bottom: 60px;
+    width: 645px;
+    margin: 0 auto;
+}
+
+.activites-part .activites-content .activites-content-item {
+    background: transparent;
+    transition: .4s;
+}
+
+.activites-part .activites-content .activites-content-item:hover {
+    background: #FFF;
+    transition: .4s;
+    -webkit-box-shadow: 0px 6px 30px 1px rgba(0, 0, 0, 0.09);
+    -moz-box-shadow: 0px 6px 30px 1px rgba(0, 0, 0, 0.09);
+    box-shadow: 0px 6px 30px 1px rgba(0, 0, 0, 0.09);
+    border-radius: 25px;
+}
+
+.activites-part .activites-content .activites-content-item:hover img {
+    border-radius: 25px 25px 0 0;
+}
+
+.activites-part .activites-content .activites-content-item img {
+    width: 100%;
+    transition: .4s;
+}
+
+.activites-part .activites-content .activites-content-item span {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #717171;
+    margin-bottom: 30px;
+    margin-top: 20px;
+    padding-left: 24px;
+    display: inline-block;
+}
+
+.activites-part .activites-content .activites-content-item h6 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    color: #243F93;
+    margin-bottom: 20px;
+    padding-left: 24px;
+}
+
+.activites-part .activites-content .activites-content-item p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #717171;
+    margin-bottom: 20px;
+    padding-left: 24px;
+}
+
+.activites-part .activites-content .activites-content-item a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #243F93;
+    padding-left: 24px;
+    padding-bottom: 20px;
+    display: inline-block;
+}
+
+.activites-part .activites-content .button {
+    text-align: center;
+    margin-top: 50px;
+} 
+
+.activites-part .activites-content .button a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFF;
+    background: #243F93;
+    border: 1px solid transparent;
+    border-radius: 5px;
+    padding: 15px 24px;
+    transition: .4s;
+} 
+
+.activites-part .activites-content .button a:hover {
+    color: #243F93;
+    background: transparent;
+    border: 1px solid #243F93;
+} 
+
+/* ==========================================
+                3. activites part end
+============================================= */
+
+
+
+
+
+
+
+/* ==========================================
+                4. gallery part start
+============================================= */
+
+.gallery-part {
+    padding: 130px 0;
+}
+
+.gallery-part .gallery-title {
+    text-align: center;
+}
+
+.gallery-part .gallery-title h2 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: #243F93;
+    margin-bottom: 20px;
+}
+
+.gallery-part .gallery-title p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #626262;
+    width: 645px;
+    margin: 0 auto;
+    margin-bottom: 60px;
+}
+
+/* ==========================================
+                4. gallery part end
+============================================= */
+
+
+
+
+
+
+/* ==========================================
+                5. footer part start
+============================================= */
+
+.footer-part{
+    background: #243F93;
+    padding: 130px 0;
+}
+
+.footer-part img {
+    margin-bottom: 16px;
+}
+
+.footer-part p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #F3F3F3;
+}
+
+.footer-part .socail-btn {
+    display: flex;
+}
+
+.footer-part .socail-btn > p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #F3F3F3;
+    margin-right: 16px;
+}
+
+.footer-part .socail-btn > a {
+    margin-right: 16px;
+    color: #f3f3f3;
+}
+
+.footer-part .footer-link-title {
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-bottom: 16px;
+}
+
+.footer-part ul {
+    padding-left: 0!important;
+}
+
+.footer-part ul li {
+    margin-bottom: 10px;
+}
+
+.footer-part ul li a {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #f3f3f3;
+}
+
+.footer-part .address-info {
+    display: flex;
+    margin-bottom: 43px;
+}
+
+.footer-part .address-info i {
+    margin-right: 15px;
+    font-size: 26px;
+    color: #FFF;
+}
+
+.footer-part h4 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+    color: #FFF;
+    margin-bottom: 20px;
+}
+
+.footer-part form input {
+    padding: 12px 0;
+    padding-left: 20px;
+    padding-right: 70px;
+    background: transparent;
+    border-radius: 5px;
+    border: 1px solid #FFF;
+    color: #FFF;
+}
+
+.footer-part form input::placeholder {
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #7491ED;
+}
+
+.footer-part form button {
+    font-family: 'Poppins', sans-serif;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 12px 24px;
+    background: #ED1C24;
+    color: #FFF;
+    border: 0;
+    margin-left: -8px;
+    border-radius: 5px;
+}
+
+/* ==========================================
+                5. footer part end
+============================================= */
+
+
+
+/* ==========================================
+                6. copyright part start
+============================================= */
+
+.copyright {
+    background: #243F93;
+    padding-bottom: 63px;
+}
+
+.copyright p {
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+/* ==========================================
+                6. copyright part end
+============================================= */
